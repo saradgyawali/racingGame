@@ -17,3 +17,13 @@
 h1 {
 	font-family:fantasy;
 }
+
+#car1 {
+	height:100px;
+	width:250;
+}
+
+#car2 {
+	height:100px;
+	width:200px;
+}
