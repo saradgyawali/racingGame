@@ -1,0 +1,2 @@
+This is a Racing Game that I built in the first week of my career as a Web Developer at General Assembly(San Francisco). 
+I will be updating this game on daily/weekly basis and try to make it better everytime.
