@@ -1,0 +1,19 @@
+.player1 {
+	height:200px;
+	width:1260px;
+	top:100px;
+	position: relative;
+	background-color: lightgrey;
+}
+
+.player2 {
+	height:200px;
+	width:1260px;
+	background-color: lightgreen;
+	position:relative;
+	top:100px;
+}
+
+h1 {
+	font-family:fantasy;
+}
