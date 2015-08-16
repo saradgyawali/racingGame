@@ -1,4 +1,4 @@
-.player1 {
+.first-div {
 	height:200px;
 	width:1260px;
 	top:100px;
@@ -6,7 +6,7 @@
 	background-color: lightgrey;
 }
 
-.player2 {
+.second-div {
 	height:200px;
 	width:1260px;
 	background-color: lightgreen;
@@ -32,4 +32,40 @@ h1 {
 	position: relative;
 	top:75px;
 	left:4px;
+}
+
+#start_game {
+	height:28px;
+	border-radius: 14px;
+}
+
+#instruction {
+	height:28px;
+	border-radius:14px;
+}
+
+.play_key {
+	height:40px;
+	width:160px;
+	border-radius:20px;
+	background-color:pink;
+	margin-top:5px;
+	margin-left:79px;
+	position:relative;
+	top:-33px;
+	text-align:center;
+}
+
+/*.go {
+	background-color: skyblue;
+	height:20px;
+	width:50px;
+	text-align: center;
+	border-radius:10px;
+	position:relative;
+	top:-25px;
+}*/
+
+.press {
+
 }
