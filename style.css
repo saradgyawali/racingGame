@@ -19,11 +19,17 @@ h1 {
 }
 
 #car1 {
-	height:100px;
-	width:250;
+	height:58px;
+	width:120px;
+	position: relative;
+	top:75px;
+	left:4px;
 }
 
 #car2 {
-	height:100px;
-	width:200px;
+	height:60px;
+	width:120px;
+	position: relative;
+	top:75px;
+	left:4px;
 }
