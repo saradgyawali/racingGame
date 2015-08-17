@@ -1,21 +1,31 @@
 .first-div {
 	height:200px;
-	width:1260px;
+	width:1200px;
 	top:100px;
 	position: relative;
 	background-color: lightgrey;
+   border: 1px solid #000; 
+   margin: 0px 0 1px;
 }
 
 .second-div {
 	height:200px;
-	width:1260px;
+	width:1200px;
 	background-color: lightgreen;
 	position:relative;
 	top:100px;
+	border:1px solid #000;
 }
 
-h1 {
-	font-family:fantasy;
+.title {
+	font-family:Verdana;
+	background-color: grey;
+	height:50px;
+	width:400px;
+	font-size:40px;
+	text-align:center;
+	margin: 10px 400px 10px 400px;
+	border-radius:25px;
 }
 
 #car1 {
@@ -37,11 +47,22 @@ h1 {
 #start_game {
 	height:28px;
 	border-radius: 14px;
+	position:relative;
+	left:425px;
 }
 
 #instruction {
 	height:28px;
 	border-radius:14px;
+	position:relative;
+	left:455px;
+}
+
+#reset {
+	height:28px;
+	border-radius:14px;
+	position:relative;
+	left:485px;
 }
 
 .play_key {
@@ -50,7 +71,7 @@ h1 {
 	border-radius:20px;
 	background-color:pink;
 	margin-top:5px;
-	margin-left:79px;
+	margin-left:589px;
 	position:relative;
 	top:-33px;
 	text-align:center;

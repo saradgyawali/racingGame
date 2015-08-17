@@ -6,12 +6,13 @@ $(document).ready(function(){
 
 	$("#start_game").keyup(function(event){
 		if (event.which === 90) {
-			$("#car1").animate({left: "+=10px"}, "fast");
+			$("#car1").animate({left: "+=20px"}, "fast");
 		}
 		else if (event.which === 80) {
-			$("#car2").animate({left: "+=10px"}, "fast");
+			$("#car2").animate({left: "+=20px"}, "fast");
 		}
 	});
+
 
 });
 
@@ -21,14 +22,26 @@ $(document).ready(function(){
 	$("#instruction").click(function(){
 		$(".play_key").toggle("slow");
 		$(".play_key").animate({
-			left:"120px",
+			right:"100px",
 			opacity:"1",
-			height:"50px",
-			width:"200px"
-		});
+			height:"40px",
+			width:"200px",
+		}, linear);
 		$("#instruction").css("background-color", "lightgreen");
 	});
+	$("#start_game").click(function(){
+		$("#start_game").css("background-color","skyblue");
+	})
 
+});
+
+
+$(document).ready(function(){
+
+    $("#reset").click(function(){
+    	location.reload();
+
+    });
 });
 
 // $(document).ready(function(){
