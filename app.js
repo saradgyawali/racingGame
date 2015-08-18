@@ -35,13 +35,15 @@ $(document).ready(function(){
 
 });
 
-
+// Resets the Whole Page
 $(document).ready(function(){
 
     $("#reset").click(function(){
     	location.reload();
 
     });
+
+    
 });
 
 // $(document).ready(function(){

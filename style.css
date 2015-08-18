@@ -26,6 +26,12 @@
 	text-align:center;
 	margin: 10px 400px 10px 400px;
 	border-radius:25px;
+	animation:color-change 1s infinite;
+}
+
+@keyframes color-change { 0%{color:red;} 100%{color:green;} 
+
+
 }
 
 #car1 {
