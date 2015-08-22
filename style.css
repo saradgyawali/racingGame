@@ -4,10 +4,8 @@
 	top:50px;
 	position: relative;
 	background-color: lightgrey;
-	border-radius: 50px 50px 0px 0px ;
-    border: 1px solid #000; 
-    margin: 0px 0 1px;
-    background: -webkit-radial-gradient(circle, green 1%, transparent 90%)
+	border-radius: 20px 20px 0px 0px ;
+    background: -webkit-radial-gradient(circle, green 1%, transparent 99%)
 }
 
 .second-div {
@@ -16,9 +14,8 @@
 	background-color: lightgreen;
 	position:relative;
 	top:50px;
-	border:1px solid #000;
-	border-radius: 0px 0px 50px 50px;
-	 background: -webkit-radial-gradient(circle, red 1%, transparent 90%)
+	border-radius: 0px 0px 20px 20px;
+	background: -webkit-radial-gradient(circle, yellow 1%, transparent 99%)
 }
 
 .title {
@@ -33,7 +30,7 @@
 	animation:color-change 1s infinite;
 }
 
-@keyframes color-change { 0%{color:red;} 100%{color:green;} 80%{color:yellow;} 
+@keyframes color-change { 0%{color:red;} 100%{color:green;} 80%{color:yellow;} 90%{color:blue;} 
 
 
 }
@@ -43,7 +40,7 @@
 	width:120px;
 	position: relative;
 	top:65px;
-	left:4px;
+	left:0px;
 }
 
 #car2 {
@@ -51,7 +48,7 @@
 	width:120px;
 	position: relative;
 	top:65px;
-	left:4px;
+	left:0px;
 }
 
 #start_game {
