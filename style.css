@@ -42,7 +42,7 @@
 	height:58px;
 	width:120px;
 	position: relative;
-	top:75px;
+	top:65px;
 	left:4px;
 }
 
@@ -50,7 +50,7 @@
 	height:60px;
 	width:120px;
 	position: relative;
-	top:75px;
+	top:65px;
 	left:4px;
 }
 
@@ -94,9 +94,9 @@ hr {
 .inside {
 	position: relative;
 	background-color:white;
-	width:1195px;
-	border:4px  black;
-	margin:98px 0px 98px 0px;
+	width:1192px;
+	border:4px dashed black;
+	top:98px;
 }
 /*.go {
 	background-color: skyblue;
