@@ -1,11 +1,13 @@
 .first-div {
 	height:200px;
 	width:1200px;
-	top:100px;
+	top:50px;
 	position: relative;
 	background-color: lightgrey;
-   border: 1px solid #000; 
-   margin: 0px 0 1px;
+	border-radius: 50px 50px 0px 0px ;
+    border: 1px solid #000; 
+    margin: 0px 0 1px;
+    background: -webkit-radial-gradient(circle, green 1%, transparent 90%)
 }
 
 .second-div {
@@ -13,8 +15,10 @@
 	width:1200px;
 	background-color: lightgreen;
 	position:relative;
-	top:100px;
+	top:50px;
 	border:1px solid #000;
+	border-radius: 0px 0px 50px 50px;
+	 background: -webkit-radial-gradient(circle, red 1%, transparent 90%)
 }
 
 .title {
@@ -29,7 +33,7 @@
 	animation:color-change 1s infinite;
 }
 
-@keyframes color-change { 0%{color:red;} 100%{color:green;} 
+@keyframes color-change { 0%{color:red;} 100%{color:green;} 80%{color:yellow;} 
 
 
 }
@@ -83,6 +87,17 @@
 	text-align:center;
 }
 
+hr {
+	height:5px;
+	background-color: red;
+}
+.inside {
+	position: relative;
+	background-color:white;
+	width:1195px;
+	border:4px  black;
+	margin:98px 0px 98px 0px;
+}
 /*.go {
 	background-color: skyblue;
 	height:20px;
