@@ -26,7 +26,7 @@
 	font-size:40px;
 	text-align:center;
 	margin: 10px 400px 10px 400px;
-	border-radius:25px;
+	border-radius:25px 0 25px 0;
 	animation:color-change 1s infinite;
 }
 

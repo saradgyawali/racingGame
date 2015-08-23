@@ -1,33 +1,38 @@
 $(document).ready(function(){
 	
-	// function(/*parameters*/){
-	// // TDOO: Make a function that announces a winner,
-	// // Parameters: keypresses, name
-	// }
+	var player1moves = 0;
+	var player2moves = 0;
 
-	// $("#start_game").click(function(){
-
-	// });
-	// TODO: make two variables for two keypresses
 	$("#start_game").keyup(function(event){
-
+        //console.log(event.which, player1moves);
 		if (event.which === 90) {
 			$("#car1").animate({left: "+=20px"}, "fast");
-			// increment a keypress 
-			// call your function w/ params
+			player1moves++
+			if (player1moves === 54) {
+				// declare a winner
+				alert("Orange Car Wins!!!, Red Loses")
+			}
+
 		}
 		else if (event.which === 80) {
 			$("#car2").animate({left: "+=20px"}, "fast");
 			// increment a keypress
+			player2moves++
 			// call your function w/ params
+			if (player2moves === 54) {
+				alert("Red Car Wins!!!, Orange Loses")
+			}
 		}
 	});
 
 
-});
-
-$(document).ready(function(){
 	$(".play_key").hide();
+
+	//Resets the Game
+    $("#reset").click(function(){
+    	location.reload();
+
+    });
 	
 	$("#instruction").click(function(){
 		$(".play_key").toggle("slow");
@@ -40,45 +45,9 @@ $(document).ready(function(){
 		$("#instruction").css("background-color", "lightgreen");
 	});
 	$("#start_game").click(function(){
-		$("#start_game").css("background-color","skyblue");
+		$("#start_game").css("background-color","red");
 	})
 
+
 });
-
-// Resets the Whole Page
-$(document).ready(function(){
-
-    $("#reset").click(function(){
-    	location.reload();
-
-    });
-
-    
-});
-
-// $(document).ready(function(){
-// 	$("#start_game").click(function(){
-// 		$(".go").toggle();
-// 		$(".go").animate({
-// 			left:"200px";
-// 		});
-// 	});
-
-// });
-
-// $("button").mouseleave(function(){
-// 		$("#car1").animate({ "left": "+=10px" }, "fast" );
-// 	});
-
-// $("button").mouseleave(function(){
-// 		$("#car1").animate({ "left": "+=10px" }, "fast" );
-// 	});
-
-// 	$("button").mouseenter(function(){
-// 		$("#car2").animate({ "left": "+=9px" }, "fast" );
-
-// 	});
-// 	$("button").mouseleave(function(){
-// 		$("#car2").animate({ "left": "+=9px" }, "fast" );
-// 	});
 
