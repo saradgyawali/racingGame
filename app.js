@@ -4,13 +4,13 @@ $(document).ready(function(){
 	var player2moves = 0;
 
 	$("#start_game").keyup(function(event){
-        //console.log(event.which, player1moves);
+        console.log(event.which, player1moves, player2moves);
 		if (event.which === 90) {
 			$("#car1").animate({left: "+=20px"}, "fast");
 			player1moves++
 			if (player1moves === 54) {
 				// declare a winner
-				alert("Orange Car Wins!!!, Red Loses")
+				alert("Orange Car Wins!!! Red Loses")
 			}
 
 		}
@@ -20,7 +20,7 @@ $(document).ready(function(){
 			player2moves++
 			// call your function w/ params
 			if (player2moves === 54) {
-				alert("Red Car Wins!!!, Orange Loses")
+				alert("Red Car Wins!!! Orange Loses")
 			}
 		}
 	});
