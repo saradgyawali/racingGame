@@ -3,7 +3,6 @@
 	width:1200px;
 	top:50px;
 	position: relative;
-	background-color: lightgrey;
 	border-radius: 20px 20px 0px 0px ;
     background: -webkit-radial-gradient(circle, green 1%, transparent 99%)
 }
@@ -11,11 +10,10 @@
 .second-div {
 	height:200px;
 	width:1200px;
-	background-color: lightgreen;
 	position:relative;
 	top:50px;
 	border-radius: 0px 0px 20px 20px;
-	background: -webkit-radial-gradient(circle, blue 1%, transparent 99%)
+	background: -webkit-radial-gradient(circle, yellow 1%, transparent 99%)
 }
 
 .title {
